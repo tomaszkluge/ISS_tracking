@@ -58,5 +58,5 @@ while True:
     # Update the ISS location on the map
     iss.goto(lon, lat)
 
-    # Refresh each 5 seconds
-    time.sleep(5)
+    # Refresh each 3 seconds
+    time.sleep(3)
